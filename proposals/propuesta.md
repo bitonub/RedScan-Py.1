@@ -115,4 +115,20 @@ Se propone la siguiente estructura de carpetas para organizar el proyecto:
 * **VILLARREAL SARACCO, EMILIANO (Especialista - Módulo 2: Autenticación)**
     * **Tarea Principal:** Desarrollar la función de **verificación SSH (Tarea 2)**.
     * **Entregable:** Una función de Python (usando `paramiko`) que reciba **tres argumentos** (una IP, un usuario, una contraseña) y **devuelva `True` si la conexión fue exitosa, o `False` si falló**.
+
     * **Responsabilidad:** Manejar correctamente los errores comunes de `paramiko` (ej. conexión rehusada, autenticación fallida, *timeout*) para que el script de Roel no se detenga.
+
+
+## 6. Documentacion tecnica avanzada
+
+### Función: check_ssh(ip, usuario, password, log_path=None)
+- **Ubicación**: `/src/check_ssh.py`
+- **Descripción**: Intenta establecer una conexión SSH usando `paramiko`.
+- **Parámetros**:
+  - `ip` (str): Dirección IP del host.
+  - `usuario` (str): Nombre de usuario.
+  - `password` (str): Contraseña.
+  - `log_path` (str, opcional): Ruta del archivo de log en formato JSON Lines.
+- **Retorno**: `True` si la conexión fue exitosa, `False` si falló.
+- **Excepciones manejadas**: `AuthenticationException`, `SSHException`, `socket.timeout`, `socket.error`.
+- **Formato de log**: JSON Lines con campos `timestamp`, `ip`, `usuario`, `exito`, `error` (si aplica).
