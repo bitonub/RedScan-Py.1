@@ -18,3 +18,10 @@ Este software ha sido desarrollado con fines **estrictamente académicos y educa
 * **No Malicia:** El objetivo es reportar vulnerabilidades, no explotarlas. La herramienta no almacenará credenciales exitosas ni intentará realizar acciones post-explotación.
 
 El equipo de desarrollo no se hace responsable del mal uso de este código.
+
+## Estado del Proyecto
+
+ Función `check_ssh` implementada en `/check_ssh.py`  
+ Evidencia de ejecución en `/test_check_ssh.py`  
+ Logging en formato JSON Lines (`ssh_log.jsonl`)  
+ Documentación técnica actualizada (`/docs/propuesta.md`)  
