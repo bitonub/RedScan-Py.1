@@ -25,3 +25,16 @@ El equipo de desarrollo no se hace responsable del mal uso de este código.
  Evidencia de ejecución en `/test_check_ssh.py`  
  Logging en formato JSON Lines (`ssh_log.jsonl`)  
  Documentación técnica actualizada (`/docs/propuesta.md`)  
+
+## 🚀 Integración de IA (Entregable 3)
+
+- Se integró el módulo `ai_summary.py` con la API de Google Gemini.
+- Se añadió el script de orquestación `scripts/run_pipeline.sh`.
+- Se implementó logging en formato JSON Lines (`examples/logs.jsonl`).
+- Documentación del plan de IA en `/docs/ai_plan.md`.
+- Prompt base en `/prompts/prompt_v1.json`.
+
+### 🔧 Ejecución del flujo
+```bash
+chmod +x scripts/run_pipeline.sh
+./scripts/run_pipeline.sh
