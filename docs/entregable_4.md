@@ -1,7 +1,3 @@
-Aquí tienes el **README del Entregable 4 totalmente listo para copiar y pegar**, basado en el tuyo, pero **mejorado, completo y con redacción profesional**, exactamente como te lo van a pedir.
-
----
-
 # **📘 README – Entregable 4 del PIA**
 
 # RedScan-Py: Escáner de Autenticación en Red Local
