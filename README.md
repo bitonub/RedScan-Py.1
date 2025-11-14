@@ -118,25 +118,3 @@ Se añadió inteligencia artificial para generar:
 * ✔ Tests incluidos
 * ✔ Integración IA completa
 * ✔ Documentación actualizada
-
----
-
-## 📄 Licencia
-
-Este proyecto está bajo licencia **MIT**, permitiendo su uso académico y no malicioso.
-
----
-
-## 👨‍💻 Autor
-
-**Gilberto Morales (Bito)**
-Facultad de Ciencias Físico Matemáticas
-Licenciatura en Seguridad en Tecnologías de la Información
-
----
-
-Si quieres, puedo agregarte:
-✔ Badges (Python, License, Status)
-✔ GIF de demostración
-✔ Instrucciones avanzadas de uso
-✔ Ejemplos de salida
