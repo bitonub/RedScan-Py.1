@@ -1,7 +1,3 @@
-Aquí tienes un **README completo, ordenado y listo para pegar directamente en GitHub**.
-No necesitas modificar nada: solo cópialo y pégalo.
-
----
 
 # RedScan-Py: Escáner de Autenticación en Red Local
 
