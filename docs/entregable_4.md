@@ -148,4 +148,3 @@ Disponible en `/docs/entregable_4.md`.
 ```bash
 ./scripts/run_pipeline.sh
 
-Si quieres, también te genero la versión en **Markdown con emojis, versión más formal**, o una versión **más corta para entregables**.
