@@ -1,6 +1,3 @@
-
-# **📘 README –
-
 # RedScan-Py: Escáner de Autenticación en Red Local
 
 ## 📌 Descripción General del Proyecto
