@@ -39,11 +39,11 @@ El equipo no se responsabiliza por el uso indebido de este software.
 
 ```
 RedScan-Py/
-│
-├── check_ssh.py              # Función principal para pruebas SSH
-├── scan_network.py           # Detección de dispositivos activos
-├── ai_summary.py             # Integración con Google Gemini
-├── main.py                   # Orquestación del flujo
+└── src/
+│    └── Tarea2_check_ssh.py              # Función principal para pruebas SSH
+│    └── runs_scan.py           
+│    └── ai_summary.py             # Integración con Google Gemini
+│    └── main.py                   # Orquestación del flujo
 │
 ├── scripts/
 │   └── run_pipeline.sh       # Script para ejecutar todo el proceso
@@ -55,14 +55,14 @@ RedScan-Py/
 │   ├── logs.jsonl            # Logs generados (JSON Lines)
 │   ├── ai_output.json        # Salida generada por la IA
 │   └── scan_results.json     # Resultados del escaneo
+│   └── test_check_ssh.py     # Evidencia de funcionamiento
 │
 ├── docs/
 │   ├── propuesta.md          # Documento técnico inicial
 │   ├── ai_plan.md            # Plan de integración de IA
-│   └── entregable_4.md       # Documentación oficial del entregable 4
-│
-└── tests/
-    └── test_check_ssh.py     # Evidencia de funcionamiento
+│   └── entregable_2.md       
+│   └── entregable_3.md
+│   └── entregable_4.md   
 ```
 
 ---
@@ -114,34 +114,3 @@ La IA genera:
 * Salida guardada en `/examples/ai_output.json`
 * Orquestación automática desde `run_pipeline.sh`
 * Logging estructurado en `.jsonl`
-
----
-
-## 📘 Estado del Proyecto – Entregable 4
-
-El proyecto se ha actualizado para cumplir con los requisitos del **Cuarto Entregable del PIA**:
-
-### ✔ Flujo técnico consolidado
-
-Todo el pipeline está conectado y automatizado.
-
-### ✔ IA integrada (Google Gemini)
-
-Generación automática de resúmenes y recomendaciones.
-
-### ✔ Evidencia reproducible
-
-Incluida en `/examples/`.
-
-### ✔ Logging estructurado
-
-Formato **JSON Lines** para trazabilidad.
-
-### ✔ Documentación actualizada
-
-Disponible en `/docs/entregable_4.md`.
-
-### ▶ Ejecución del flujo completo
-
-```bash
-./scripts/run_pipeline.sh
