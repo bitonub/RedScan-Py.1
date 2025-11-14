@@ -90,7 +90,7 @@ chmod +x scripts/run_pipeline.sh
 
 ---
 
-## 🤖 Integración de IA (Entregable 3)
+## 🤖 Integración de IA
 
 Se añadió inteligencia artificial para generar:
 
@@ -107,10 +107,20 @@ Se añadió inteligencia artificial para generar:
 
 ---
 
-## 📝 Estado Actual del Proyecto
+📘 Estado del Proyecto 
 
-* ✔ `check_ssh()` funcional
-* ✔ Logs generados en `ssh_log.jsonl`
-* ✔ Tests incluidos
-* ✔ Integración IA completa
-* ✔ Documentación actualizada
+El proyecto ha sido actualizado para cumplir con el Entregable 4 del PIA:
+
+Flujo técnico totalmente consolidado
+
+IA integrada mediante Google Gemini
+
+Logging en JSON Lines
+
+Evidencia reproducible en /examples
+
+Documentación técnica en /docs/entregable_4.md
+
+Para ejecutar el flujo completo:
+
+./scripts/run_pipeline.sh
